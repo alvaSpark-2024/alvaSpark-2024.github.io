@@ -1,0 +1,74 @@
+body {
+	background: #FFF5E1;
+	font-family: arial;
+	border: 5px solid black;
+	
+
+}
+
+fieldset {
+	background: #00CED1;
+}
+
+label {
+	display:inline-block; /*PARA ALINEAR LAS PALABRAS NOMBRE, TELEFONO,ETC*/
+	width: 150px;
+	font-family: roboto;
+	font-weight: 1000;
+	font-size: 20px;
+
+
+}
+h1{
+	color: #FFFF66;
+	font-family: cooper black;
+	font-size: 40px;
+}
+
+input {
+
+	padding:7px, 6px; 
+	width: 250px;
+	color: black;
+	border-radius:15px 15px 15px 15px; 
+	background-color: #FFF5E1 ;
+	border: 3px black solid;
+	text-transform: capitalize;
+
+}
+
+#selec {
+	width: 30px;
+}
+
+button{
+	border-color: black;
+	background-color: #D2B48C;
+	float: center;
+	border-radius: 50px ;
+
+}
+button:hover{
+	transition: 0.3s ease;
+	background-color: lime;
+	transform: scale(2.0);
+	transform-style: flat;
+
+
+}
+.inicia{
+	background-color: beige;
+	color: #DAA520;
+
+}
+.boton{
+	font-size: 10px;
+	width: 70px;
+	height: 50px;
+	font-family: papyrus;
+	float: center;
+
+}
+
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Alvarex1.css">
+
+	<title>Formulario</title>
+
+</head>
+<body>
+
+
+  <form action="#" method="get"></form>
+
+<fieldset class="inicia">
+
+<h1><center><font size=14 color=lime face=papyrus Black>FORMULARIO</font></center></h1>
+<h2><center><font size=12 color= navy face=papyrus>CONCURSO DE MEJOR FOTOGRAFIA DE PORTADA</font></center></h2>
+
+<h4> <center> &#9888; <font color=coral face=calibri> (Lea detenidamente y llene correctamente el formulario)</font> &#9888;</center></h4>
+
+</fieldset>
+<hr color="black" size="10px">
+
+
+  <fieldset>
+  	<h1>Informacion Personal</h1>
+
+  	<label for="Nombre">Nombre</label>
+		<input  type="text" name="Nombre" placeholder="Escriba su nombre" required="llene sus datos" size=41> 
+
+		<br> </br>
+
+		<label for="Apellido">Apellido</label>
+
+		<input type="text" name="Apellido" placeholder="Escriba su apellido" size=41>
+
+		<br>   </br>
+		<label>Genero:</label>
+		<input id="selec" type="radio" name="boton"value="1">Femenino
+		<input id="selec" type="radio" name="boton"value="2">Masculino
+
+		<br> </br>
+		
+		<label for="C.I.">C.I.</label>
+
+		<input type="num" name="CI" placeholder="Escriba su cedula de identidad" size=45>
+
+		<br> </br>
+
+		<label for="Direccion">Direccion</label>
+
+		<input type="text" name="Direccion" placeholder="Escriba su direccion" size=49>
+
+		<br> </br>
+
+		<label for="correo electronico">Correo electronico</label>
+
+		<input type="correo electronico" name="correo electronico" placeholder="Escriba su correo electronico" size=40>
+
+		<br> </br>
+
+		<label for="Telefono">Telefono</label>
+
+		<input type="number" name="Apellido" placeholder="Escriba su numero de Telefono" size=41>
+
+		<br> </br>
+
+
+  </fieldset>
+<hr color="black" size="10px">
+  <fieldset>
+  	<h1>Ingrese su FOTOGRAFIA para la portada</h1>
+        <label for="Nombredeimagen">Titulo de la imagen</label>
+		<input  type="text" name="Nombre" placeholder="Escriba el titulo de su FOTOGRAFIA" required="llene sus datos" size=41> 
+
+		<br> </br>
+
+		<label>Fecha en que subio la imagen</label>
+		<input type="date" name="fecha">
+		
+  </fieldset>
+<hr color="black" size="10px">
+  <fieldset>
+
+  	<h1>Horario en que subio su FOTOGRAFIA</h1>
+
+  	<label for=""></label>
+
+		<input  id="selec" type="radio" name="boton" value="1">MAÑANA
+		<input  id="selec" type="radio" name="boton" value="2">TARDE
+		<input  id="selec" type="radio" name="boton" value="3">NOCHE
+
+  	</fieldset>
+
+<hr color="black" size="10px">
+  	<fieldset>
+  		
+  		<h1>Disponibilidad Economica</h1>
+
+  		<input  id="selec" type="radio" name="boton" value="1">Si
+		<input  id="selec" type="radio" name="boton" value="2">NO 
+		<input  id="selec" type="radio" name="boton" value="1">Talvez
+
+
+  	</fieldset>
+
+<button class="boton">ENVIAR</button>
+
+<script type="text/javascript">
+
+var hola=prompt("\u26A0 Estas apunto de llenar un formulario \n para participar del concurso\u26A0 \n\u274c ¿Estas seguro? (SI/NO/TALVEZ) \u274c");
+
+var SI="SI";
+var NO="NO";
+var TALVEZ="TALVEZ";
+
+if (hola===SI) {
+	alert("Bienvenido al formulara para participar");
+}
+else if(hola===NO){
+
+	alert("¿Por que no quieres participar? \uD83D\uDC94 ");
+	alert("¿Igual llenaras el formulario?");
+}
+
+else if(hola===TALVEZ)
+{
+	alert("NO seas indeciso yo te ayudo a elegir SI");
+	alert("Bienvenido al formulario");
+}
+
+else  {
+	alert("¿Por que no quieres participar?");
+	alert("¿Por que no quieres participar?");
+	alert("¿Por que no quieres participar?");
+	alert("¿Igual llenaras el formulario?");
+}
+
+</script>
+
+	
+
+</body>
+</html>
+
+
