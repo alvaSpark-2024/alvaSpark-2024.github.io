@@ -190,17 +190,20 @@ footer h2{
 .slider-box{
     width: 1300px;
     height: auto;
-    margin: 50px auto 0;
-    padding: 0;
+    margin: 10 auto;
+    padding: 10px;
     overflow: hidden;
-
-
+    max-width:100%;
+    display:flex;
+    position:relative;
+  
 	/*display: flex;
 	padding: 10px;
-	transform-origin: center;
-	
+	;
 	justify-content: center;
-	flex-wrap: wrap;*/
+    flex-wrap: wrap
+	justify-content: center;
+	;*/
 	
 
 }
@@ -208,17 +211,18 @@ footer h2{
     display: flex;
     padding: 0;
     width: 400%;
+    
     animation: slider 12s infinite alternate ease-in-out;
 
 }
 .slider-box li{
-    width: 100%;
+    width: calc(25.5% - 0px); 
     list-style: none;
 }
 
-/*.slider-box img{
+.slider-box img{
 
-    width:1300px;
+    width:400px;
 	/*margin: 18px;
 	object-fit: cover;
 	border-radius: 10px;
@@ -248,7 +252,7 @@ footer h2{
     75%{margin-left: -300%}
 
     80%{margin-left: -400%}
-    %{margin-left: -400%}
+    100%{margin-left: -400%}
 
 
 }
