@@ -225,3 +225,223 @@ footer h2{
 
 
 }
+
+/*moviles*/
+
+@media(max-width:600px){
+	.imagenes img{
+		width: 100%;
+		height: auto;
+	}
+	header{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		
+	}
+	#header{
+		padding: 10px;
+		height: auto;
+	}
+
+	#barra ul li a{
+	font-size: 120%;
+	}
+
+	#logo{
+		display: flex;
+		width: 190px;
+		height: 190x;
+		align-items: center;
+		justify-content: center;
+
+
+	}
+	#logos{
+		display: flex;
+		width: 190px;
+		height: 190px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#titulo h1{
+		font-size: 60%;
+	}
+	nav ul{
+		flex-direction: column;
+	}
+
+	nav ul li{
+		margin: 0px 0;
+	}
+
+	#barra ul li a{
+	display: flex;
+	justify-content: center;
+	margin: 0%;
+	height: 30px;
+	padding: 2px;
+	font-size: 30px;
+	}
+
+
+
+	textarea.cuadro{
+		height: 60px;
+	}
+
+	
+	footer h2{
+		font-size: 18px;
+	}
+
+}
+ 
+ /*para 2 images*/
+@media(min-width:601px) and (max-width:899px){
+	.imagenes img{
+		width: 40%;
+		height: 40%;
+
+	}
+
+	header{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		height: 30%;
+
+	}
+
+
+
+	#logo {
+		justify-content: center;
+		align-items: center;
+		}
+	#logo img{
+		width: 80%;
+		height: 80%;
+		
+	}
+	#logo {
+		justify-content: center;
+		align-items: center;
+		}
+	#logos img{
+		
+		width: 80%;
+		height: 80%;
+
+		
+	}
+
+	#titulo h1{
+		font-size: 130%;
+	}
+	nav ul{
+		flex-direction: column;
+	}
+
+	nav ul li{
+		margin: 0% 0;
+	}
+
+	nav ul li a{
+		font-size: 50%;
+	}
+
+
+	#barra ul li a{
+	display: flex;
+	justify-content: center;
+	margin: 0%;
+	height: 30px;
+	padding: 2px;
+	font-size: 35px;
+	}
+	
+
+	
+
+
+	textarea.cuadro{
+		height: 60px;
+	}
+
+	
+	footer h2{
+		font-size: 18px;
+	}
+
+
+}
+
+/*para 3 imagnes*/
+
+@media(min-width:900px) and (max-width:1199px){
+	.imagenes img{
+		width: 25%;
+		height: 25%;
+	}
+
+	header{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		height: 20%;
+	}
+	#logo {
+		justify-content: center;
+		align-items: center;
+		}
+	#logo img{
+		width: 80%;
+		height: 80%;
+		
+	}
+
+	#logos {
+		justify-content: center;
+		align-items: center;
+		}
+	#logos img{
+		width: 80%;
+		height: 80%;
+		
+	}
+
+}
+
+
+ /*para 4 images*/
+@media(min-width:1200px){
+	.imagenes img{
+		width: 20%;
+		height: 20%;
+	}
+
+
+	#logo img{
+		width: 85%;
+		height: 85%;
+	}
+	#logos img{
+		width: 85%;
+		height: 85%;
+	}
+	#titulo h1{
+		font-size: 140%;
+
+	}
+
+	nav ul li a{
+		font-size: 50%;
+	}
+
+}
+
+
+
+
