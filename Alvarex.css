@@ -188,14 +188,16 @@ footer h2{
 
 
 .slider-box{
-    width: 1300px;
+    width: 100%;
     height: auto;
-    margin: 10 auto;
-    padding: 10px;
+    margin-top: 50px;
+    margin-right:10px ;
+    margin-left: 10px;
+    padding: 0px;
     overflow: hidden;
-    max-width:100%;
-    display:flex;
-    position:relative;
+    /*max-width:100%;*/
+    
+    /*position:relative;*/
   
 	/*display: flex;
 	padding: 10px;
@@ -209,20 +211,25 @@ footer h2{
 }
 .slider-box ul{
     display: flex;
-    padding: 0;
-    width: 400%;
+    padding: 10px;
+    width: 500%;
     
-    animation: slider 12s infinite alternate ease-in-out;
+    animation: slider 12s infinite alternate-reverse ease-in-out;
 
 }
 .slider-box li{
-    width: calc(25.5% - 0px); 
+    width:20%;
     list-style: none;
+  
 }
 
 .slider-box img{
 
-    width:1300px;
+    width:100%;
+    height:auto;
+    margin:100%;
+   
+    
 	/*margin: 18px;
 	object-fit: cover;
 	border-radius: 10px;
@@ -231,29 +238,32 @@ footer h2{
 
 }
 
-.slider-box img:hover{
+/*.slider-box img:hover{
 
-	transform: scale(1.2);
+	/*transform: scale(1.2);
 
-}
+}*/
 
-@keyframes slider {
+@keyframes slider 
+{
     
-    0%{margin-left: 0%}
-    10%{margin-left: 0%}
+    0%{margin-left: -0%;}
+    10%{margin-left: -0%;}
 
-    15%{margin-left: -100%}
-    25%{margin-left: -100%}
+    15%{margin-left: -100%;}
+    20%{margin-left: -100%;}
 
-    30%{margin-left: -200%}
-    40%{margin-left: -200%}
+    25%{margin-left: -200%;}
+    40%{margin-left: -200%;}
 
-    45%{margin-left: -300%}
-    65%{margin-left: -300%}
+    45%{margin-left: -300%;}
+    60%{margin-left: -300%;}
 
-    80%{margin-left: -400%}
-    100%{margin-left: -400%}
+    65%{margin-left: -400%;}
+    80%{margin-left: -400%;}
 
+    85%{margin-left: -500%;}
+    100%{margin-left: -500%;}
 
 }
 
@@ -296,10 +306,10 @@ footer h2{
 
 /*moviles*/
 
-@media(max-width:600px){
-	.imagenes img{
-		width: 100%;
-		height: auto;
+@media(max-width:700px){
+	
+	.slider-box img{
+		width: 500%;
 	}
 	header{
 		flex-direction: column;
@@ -367,7 +377,7 @@ footer h2{
 }
  
  /*para 2 images*/
-@media(min-width:601px) and (max-width:899px){
+@media(min-width:701px) and (max-width:899px){
 	.imagenes img{
 		width: 40%;
 		height: 40%;
