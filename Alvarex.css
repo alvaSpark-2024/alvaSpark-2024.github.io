@@ -222,7 +222,7 @@ footer h2{
 
 .slider-box img{
 
-    width:400px;
+    width:1300px;
 	/*margin: 18px;
 	object-fit: cover;
 	border-radius: 10px;
@@ -240,16 +240,16 @@ footer h2{
 @keyframes slider {
     
     0%{margin-left: 0%}
-    15%{margin-left: 0%}
+    10%{margin-left: 0%}
 
-    20%{margin-left: -100%}
-    35%{margin-left: -100%}
+    15%{margin-left: -100%}
+    25%{margin-left: -100%}
 
+    30%{margin-left: -200%}
     40%{margin-left: -200%}
-    55%{margin-left: -200%}
 
-    60%{margin-left: -300%}
-    75%{margin-left: -300%}
+    45%{margin-left: -300%}
+    65%{margin-left: -300%}
 
     80%{margin-left: -400%}
     100%{margin-left: -400%}
@@ -486,8 +486,8 @@ footer h2{
  /*para 4 images*/
 @media(min-width:1200px){
 	.imagenes img{
-		width: 20%;
-		height: 20%;
+		width: 100%;
+		height: auto;
 	}
 
 
